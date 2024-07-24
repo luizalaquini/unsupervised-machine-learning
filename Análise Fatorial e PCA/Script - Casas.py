@@ -7,16 +7,6 @@
 
 #%% Instalando os pacotes
 
-!pip install pandas
-!pip install numpy
-!pip install factor_analyzer
-!pip install sympy
-!pip install scipy
-!pip install matplotlib
-!pip install seaborn
-!pip install plotly
-!pip install pingouin
-!pip install pyshp
 
 #%% Importando os pacotes necessários
 
@@ -33,7 +23,7 @@ import plotly.graph_objects as go
 
 #%% Importando o banco de dados
 
-casas = pd.read_excel("preco_casas.xlsx")
+casas = pd.read_excel("Analise_Fatorial_e_PCA\preco_casas.xlsx")
 # Fonte: adaptado de https://www.kaggle.com/datasets/elakiricoder/jiffs-house-price-prediction-dataset
 
 # É possível extrairmos fatores que capturem o preço de venda das casas?
